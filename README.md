@@ -1,24 +1,31 @@
 # Overview #
 
-Unofficial repository for Ableton Live 10 MIDI Remote Scripts Python Sources by Julien Bayle.
-You can find more informations on this page:
-https://julienbayle.studio/ableton-live-midi-remote-scripts
+This repo includes a Python Remote Script for the combination of a Vestax VCI100 with a
+KORG nanoPAD2.
 
+Based on Julien Bayle MIDI Remote scripts: https://github.com/gluon
 
-This repository includes a Python Remote Script for the combination of a Vestax VCI100 with a
-KORG nanoPAD2. All the sources are contained in the VCI100 folder.
+# Setup #
 
+The simplest way is to add the custom Python scripts to the User Library:
 
-Two VCI100 instances should be set up in the MIDI section of Live preferences. This is necessary
+  * https://help.ableton.com/hc/en-us/articles/209072009-Installing-third-party-remote-scripts
+
+Updated for Ableton Live 11:
+
+  * Change directory to Live User Library: `c:/Users/<user>/Documents/Ableton/User Library/`
+  * If "Remote Scripts" directory does not exist:
+     * `$ git clone https://github.com/gmlarumbe/vci100.git "Remote Scripts"`
+  * Profit!
+
+NOTE: Two VCI100 instances should be set up in the MIDI section of Live preferences. This is needed
 to link the two devices together and control the behaviour of the nanoPAD with the VCI100.
-
-
 
 # VCI100 #
 
 The script remaps MIDI controls of this marvelous DJ Controller into a mixing table.
 
-<img src="https://www.mixxx.org/wiki/lib/exe/fetch.php/vci100_45_big.jpg" width="500">
+<img src="https://cdn.digitaldjtips.com/app/uploads/2013/06/13093425/Vestax-VCI-100-The-Controller-That-Started-It-All-copy.jpg" width="500">
 
 
 ### Description ###
